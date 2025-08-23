@@ -1,31 +1,32 @@
-# APLIKASI KEHADIRAN SISWA
+# 📚 Absensi Siswa
 
-Sistem Absensi Siswa ini adalah sebuah aplikasi sederhana yang dirancang untuk memudahkan pencatatan kehadiran siswa secara terstruktur dan efisien. Sistem ini mengadopsi logika pemrosesan berbasis flowchart yang menggambarkan alur input, verifikasi data, serta pencatatan status kehadiran siswa dalam suatu kegiatan belajar mengajar.
+Sebuah aplikasi sederhana untuk mengelola dan mencatat kehadiran siswa.  
+Dibuat untuk mempermudah guru/instansi sekolah dalam memantau data kehadiran secara cepat dan terstruktur.
 
-Aplikasi ini dibuat untuk membantu guru, wali kelas, atau pihak sekolah dalam mendokumentasikan kehadiran siswa secara digital dan terpusat menggunakan basis data. Selain itu, dengan adanya pilihan status seperti Hadir, Sakit, Izin, dan Alpha (tanpa keterangan), aplikasi ini juga mempermudah dalam menyusun laporan absensi bulanan atau semesteran.
+---
 
--Start
-Sistem dimulai, menunggu input pengguna (guru/operator).
+## ✨ Fitur Utama
+- 👩‍🎓 Manajemen data siswa (tambah, edit, hapus).
+- 📅 Pencatatan kehadiran harian.
+- 📊 Rekap absensi bulanan.
+- 🔍 Pencarian & filter data siswa.
+- 📑 Export data absensi (Excel/PDF).
+- 🔐 Login untuk admin/guru.
 
--Input Nama Siswa
-Pengguna menginput nama siswa yang ingin dicatat absensinya.
+---
 
--Pencarian Data Siswa
-Sistem akan mengecek apakah nama siswa tersebut ada di database.
+## 🛠️ Teknologi yang Digunakan
+- **Frontend**: HTML, CSS, JavaScript (atau framework pilihan)
+- **Backend**: PHP / Laravel / Node.js (sesuaikan dengan project kamu)
+- **Database**: MySQL / PostgreSQL
+- **Tools**: Laragon / XAMPP / Docker
 
-Jika tidak ditemukan, sistem akan meminta input ulang.
+---
 
-Jika ditemukan, sistem akan mencetak/memperlihatkan data siswa.
+## 🚀 Instalasi & Menjalankan Project
 
--Penentuan Kehadiran
-Sistem meminta pengguna untuk memilih status kehadiran siswa.
+1. **Clone repository ini**
+   ```bash
+   git clone https://github.com/username/absensi-siswa.git
+   cd absensi-siswa
 
-Jika siswa Hadir, sistem mencatat kehadirannya.
-
-Jika siswa tidak hadir, maka pengguna dapat memilih status Sakit, Izin, atau Alpha.
-
--Catat Absensi
-Setelah status kehadiran dipilih, sistem akan menyimpan data absensi ke dalam database.
-
-End
-Proses absensi selesai.
