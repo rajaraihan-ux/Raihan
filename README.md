@@ -13,7 +13,7 @@ Proyek ini dibuat untuk membantu pencatatan kehadiran siswa secara lebih mudah d
 
 ---
 
-## Teknologi yang Dipakai
+## Bahasa yang Dipakai
 - Backend: PHP / Laravel 
 - Frontend: HTML, CSS, JavaScript
 - Database: MySQL
